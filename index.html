@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=540 height=960></canvas>
+      <canvas id="unity-canvas" width=486 height=864></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -58,13 +58,13 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/bds.loader.js";
       var config = {
-        dataUrl: buildUrl + "/d2d22fd22e0c3b8702f4247cfb91deaa.data.unityweb",
+        dataUrl: buildUrl + "/3f908e141e3e7be0dc416e447a631e81.data.unityweb",
         frameworkUrl: buildUrl + "/bb7748b47e0b26017077d32f057a8e8e.js.unityweb",
         codeUrl: buildUrl + "/d47bf0409dcba4fefd877ef3aeacc600.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "roro",
         productName: "narara292",
-        productVersion: "1.2.1",
+        productVersion: "1.3",
         showBanner: unityShowBanner,
       };
 
@@ -93,8 +93,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "540px";
-        canvas.style.height = "960px";
+        canvas.style.width = "486px";
+        canvas.style.height = "864px";
       }
 
       loadingBar.style.display = "block";
